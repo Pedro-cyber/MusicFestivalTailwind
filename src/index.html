@@ -1,37 +1,74 @@
 <!DOCTYPE html>
-
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, user-scalable=no" />
-        <link
-            rel="stylesheet"
-            type="text/css"
-            href="./assets/styles/main.scss"
-        />
-        <!-- do not remove this line! -->
-        <title>UOC Boilerplate</title>
-    </head>
-    <body class="py-8 text-teal-800 bg-teal-100">
-        <div class="container">
-            <img
-                src="assets/images/logo.png"
-                alt="Universitat Oberta de Catalunya"
-                class="max-w-xs"
-            />
-            <h1
-                class="mb-4 uoc-title font-serif font-bold text-4xl text-center"
-            >
-                Hello, UOC!
-            </h1>
-            <p>
-                This is a starter template for the Advanced HTML and CSS Tools
-                courses from the Master's Program in Multimedia Applications and
-                the Master's Program in Web App and Website Development at the
-                Universitat Oberta de Catalunya.
-            </p>
-        </div>
-        <script src="./assets/scripts/main.js"></script
-        ><!-- do not remove this line! -->
-    </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
+  <title>Metal Murcia Festival</title>
+</head>
+
+<body>
+  <header class="relative lg:flex">
+    <div class="flex ml-28 p-2 md:ml-72 lg:ml-6 lg:pb-0 ">
+      <div class="logo-M1 text-red logo">M</div>
+      <div class="logo-M2 text-blue logo">M</div>
+      <div class="logo-F text-yellow logo">F</div>
+    </div>
+    <nav class="lg:w-12 lg:pt-20 lg:ml-xl ">
+      <ul class="flex justify-around list-none m-0">
+        <a class="hover:no-underline" href="/bands.html">
+          <li class="links-header">Bandas</li>
+        </a>
+        <a class="hover:no-underline" href="#">
+          <li class="links-header">Blog</li>
+        </a>
+        <a class="hover:no-underline" href="#">
+          <li class="links-header">Contacto</li>
+        </a>
+      </ul>
+    </nav>
+  </header>
+  <main class="bg-black">
+    <div class="md:grid md:grid-cols-2 md:auto-rows-auto md:gap-x-1.5 md:items-center md:justify-items-center pl-2 lg:grid-cols-3 lg:m-0 lg:gap-x-0 lg:p-5">
+      <div class="grid-M1 logo text-red md:text-right md:pt-8 lg:text-center">Metal</div>
+      <div class="grid-M2 logo text-blue md:pt-8">Murcia </div>
+      <div class="grid-F logo md:col-span-2 text-yellow md:m-auto lg:col-auto lg:pt-8">Festival</div>
+      <img class="w-11/12 h-48 md:col-start-1" src="./assets/images/blind.png" alt="Blind Guardian">
+      <img class="w-11/12 h-48" src="./assets/images/dream.png" alt="Dream Theater">
+      <img class="w-11/12 h-48" src="./assets/images/leprous.jpg" alt="Leprous">
+      <img class="w-11/12 h-48" src="./assets/images/haken.jpg" alt="Haken">
+      <img class="w-11/12 h-48" src="./assets/images/kamelot.jpg" alt="Kamelot">
+      <img class="w-11/12 h-48" src="./assets/images/sonata.jpg" alt="Sonata Arctica">
+      <p class="uppercase text-center text-4xl text-white pt-5 pb-5 md:col-span-2 lg:col-span-3">Verano 2021</p>
+    </div>
+  </main>
+  <footer class="relative lg:flex lg:justify-around">
+    <div class="flex ml-28 p-4 md:ml-72 lg:ml-6">
+      <div class="logo-M1 text-red logo">M</div>
+      <div class="logo-M2 text-blue logo">M</div>
+      <div class="logo-F text-yellow logo">F</div>
+    </div>
+    <nav class="lg:w-12 lg:m-0 lg:pt-2">
+      <ul class="flex justify-around list-none m-0">
+        <a class="hover:no-underline" href="/bands.html">
+          <li class="links-footer">Bandas</li>
+        </a>
+        <a class="hover:no-underline" href="#">
+          <li class="links-footer">Blog</li>
+        </a>
+        <a class="hover:no-underline" href="#">
+          <li class="links-footer">Contacto</li>
+        </a>
+      </ul>
+    </nav>
+    <div class="flex justify-around pt-2">
+      <i class="fab fa-facebook-square text-red social"></i>
+      <i class="fab fa-google-plus-square text-blue social"></i>
+      <i class="fab fa-twitter-square text-yellow social"></i>
+    </div>
+  </footer>
+  <script src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+</body>
+
 </html>

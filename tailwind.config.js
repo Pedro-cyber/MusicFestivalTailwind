@@ -6,7 +6,25 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        teal: colors.teal
+        red: {
+          DEFAULT: '#fb4264'},
+        yellow: {
+          DEFAULT: '#c9c500'},
+        blue: {
+          DEFAULT: '#426dfb'},
+      },
+      fontFamily: {
+        'neones': ['neon', 'ui-serif']
+      },
+      gridTemplateColumns: {
+        '3': 'repeat(3,1fr)'
+      },
+      margin: {
+        xl: '750px'
+      },
+      flex: {
+        '1': '0 0 50%',
+        '2': '30vw'
       },
       container: {
         center: true,

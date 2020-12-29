@@ -37,5 +37,7 @@
     "sass": "^1.26.10",
     "tailwindcss": "^2.0.1-compat"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.1"
+  }
 }

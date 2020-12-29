@@ -1,0 +1,23 @@
+.card {
+  box-shadow: 0 0 1vw 1vw $color-yellow;
+}
+
+//Extraccion de componentes tailwind
+
+.card-component {
+  @apply mb-5 text-white md:flex-1 lg:flex-2 lg:ml-3 lg:mr-3;
+}
+
+@media screen and (min-width: 700px) {
+
+  .card {
+    box-shadow: 0 0 0.5vw 0.3vw $color-yellow;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  .card {
+    box-shadow: 0 0 0.5vw 0.15vw $color-yellow;
+  }   
+}
